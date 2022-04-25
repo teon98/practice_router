@@ -1,4 +1,4 @@
-## [React Cours] React Router(v6) 실습
+# [React Cours] React Router(v6) 실습
 
 ### 목차
 1. 리액트 프로젝트에 라우터 적용하기
