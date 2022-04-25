@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+*{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.menubar{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 30px 10%;
+    height: 20px;
+    align-items: center;
+}
+
+.menubar li a{
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.menubar li a:hover{
+    color: #FF9E1B;
+}
+
+.menubar li{
+    padding: 0px 50px;
+}
+
+.goHome {
+    background-color: #e7e7e7; 
+    color: black;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
+.content{
+    flex:auto;
+    margin: 10px auto;
+    text-align: center;
+    width: 400px;
+}
+
+.footer{
+    height:20vh;
+    background-color: #585858;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    color: black;
+    font-weight: bold;
+    font-size: small;
+    justify-content: center;
+}
+
+.footer p {
+    margin-left: 20px;
+}
+
+.footer>p>a>img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.Home h1{
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.movies h1{
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 20px;
+}
+.movies p > a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    padding: 10px 7px;
+    display: inline-block;
+    width: 150px;
+    font-size: 12px;
+}
+
+.movie p{
+    margin: 5px 0px;
+}
+
+.movie button{
+    border: 0;
+    background-color: white;
+    color: #FF9E1B;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.movie span{
+    font-weight: bold;
+    color: #585858;
+}
