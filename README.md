@@ -9,3 +9,10 @@
 6. URL 파라미터 사용하기
 7. 쿼리 스트링 사용하기
 8. 리액트 라우터 부가기능 사용하기
+
+### 프로젝트 미리보기
+[홈 화면] <br>
+<img src="https://user-images.githubusercontent.com/49816869/165145398-e02e6a31-dfb5-4fa3-88b5-f43996006e1e.png" width="300px" />
+<br>
+[영화 목록 화면] <br>
+<img src="https://user-images.githubusercontent.com/49816869/165145610-98598986-d91d-4146-be7b-80d2f365cdd9.png" width="300px" />
