@@ -16,3 +16,6 @@
 <br>
 [영화 목록 화면] <br>
 <img src="https://user-images.githubusercontent.com/49816869/165145610-98598986-d91d-4146-be7b-80d2f365cdd9.png" width="300px" />
+
+### Velog 바로가기
+https://velog.io/@sparkling0_0/2.-React-Routerv6-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0
