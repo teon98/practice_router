@@ -89,7 +89,8 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 10px 20px;
 }
-.movies p > a {
+
+.list > a {
     text-decoration: none;
     color: black;
     border: 1px solid;

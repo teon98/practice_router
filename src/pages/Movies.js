@@ -11,19 +11,17 @@ const movies = () => {
       <h1>넷플릭스 영화 추천 목록</h1>
       <div className={styles.list}>
         {movies.map((movie) => (
-          <p>
-            <NavLink
-              to={`/movies/${movie.id}`}
-              key={movie.id}
-              style={({ isActive }) => {
-                return {
-                  color: isActive ? "#FF9E1B" : "",
-                };
-              }}
-            >
-              {movie.title}
-            </NavLink>
-          </p>
+          <NavLink
+            to={`/movies/${movie.id}`}
+            key={movie.id}
+            style={({ isActive }) => {
+              return {
+                color: isActive ? "#FF9E1B" : "",
+              };
+            }}
+          >
+            {movie.title}
+          </NavLink>
         ))}
       </div>
       <hr />
